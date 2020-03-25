@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Try test</title>
+    <script src= "https://kit.fontawesome.com/3a0986901b.js" crossorigin="anonymous"></script>
+    <link rel= "stylesheet" href= "style.css">
+
+    <script type="text/javascript">
+        function searchit() {
+            document.getElementById("hp").href=(("https://www.google.com/search?q=")+ (document.getElementById("linkit").value));
+        }
+    </script>
+</head>
+
+<body>
+    <div class="search-box">
+        <input class="search-text" type="search" id="linkit" placeholder="Question? type away..">
+        <a class="button" id="hp" href="" onclick="searchit()">
+            <i class="fas fa-search"></i> </a>
+    </div>
+
+</body>
+</html>
